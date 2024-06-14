@@ -2,6 +2,20 @@
 
 This project consists of a FastAPI web server that interacts with a PostgreSQL database and the OpenAI API to generate responses based on user interests.
 
+## FastAPI Server with PostgreSQL and OpenAI Integration
+
+This project consists of a FastAPI web server that interacts with a PostgreSQL database and the OpenAI API to generate responses based on user interests.
+
+### Create a .env File
+
+Create a `.env` file in the root directory of your project and add the following environment variables:
+
+```dotenv
+# .env file
+OPENAI_API_KEY=your_openai_api_key
+DATABASE_URL=postgresql://your_user:your_password@your_host:your_port/your_database
+```
+
 ## Explanation
 
 ### Imports and Setup
